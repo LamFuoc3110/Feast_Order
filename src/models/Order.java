@@ -11,6 +11,7 @@ public class Order {
     private String eventDate;
     private double totalCost;
 
+    public Order (){}
     // Constructor
     public Order(String orderID, String customerCode, String menuCode, int numberOfTables, String eventDate) {
         this.orderID = orderID;
